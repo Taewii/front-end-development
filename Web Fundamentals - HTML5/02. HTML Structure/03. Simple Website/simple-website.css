@@ -1,0 +1,45 @@
+body {
+    background: #CCCCCC;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    background: #444;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header h1 {
+    font-size: 28px;
+}
+
+header > p {
+    font-style: italic;
+}
+
+article > p {
+    font-size: 24px;
+}
+
+footer {
+    background: #444;
+    color: white;
+    text-align: center;
+}
