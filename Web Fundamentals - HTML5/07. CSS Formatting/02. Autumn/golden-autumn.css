@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #4F3B38;
+}
+
+.nav-item {
+  list-style-type: none;
+  text-transform: uppercase;
+  border: double #B34738;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 30px;
+  float: right;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.nav-item:hover,
+article button:hover {
+  background: #B34738;
+  color: black;
+}
+
+header h1 {
+  border: double #B34738;
+  padding: 10px 25px;
+  margin-left: 15px;
+  width: 26%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 19%;
+  margin-right: -20px;
+  float: right;
+}
+
+body {
+  background: #EE7047;
+}
+
+section {
+  background: #F8B544;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+article,
+article>button,
+img {
+  border: 2px solid #B34738;
+  border-radius: 15px;
+}
+
+article {
+  margin-top: 20px;
+  padding: 20px 30px;
+}
+
+article p {
+  width: 78%;
+  text-align: justify;
+}
+
+article button {
+  text-transform: uppercase;
+  background: none;
+  padding: 10px 26px;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  color: #B34738;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  border: 3px dotted #B34738;
+  border-radius: 5px;
+  margin: 12px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 5px;
+}
