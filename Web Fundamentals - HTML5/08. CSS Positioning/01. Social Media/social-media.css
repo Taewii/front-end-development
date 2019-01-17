@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  /* background: rgb(41, 41, 41); this is needed to pass the judge test */
+}
+
+footer {
+  background: #292929; 
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+ul a {
+  color: #B9B699;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+footer h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+section {
+  display: inline-block;
+  width: 19%;
+  vertical-align: text-top;
+}
+
+section:nth-child(3),
+section:nth-child(4) {
+  width: 30%;
+}
+
+footer>section>div div {
+  width: 70px;
+  height: 58px;
+  background: url('images/social.jpg');
+  display: inline-block;
+}
+
+.twitter {
+  background-position: 772px 126px;
+}
+
+.linkedin {
+  background-position: 642px 126px;
+}
+
+.youtube {
+  background-position: 325px 126px;
+}
+
+.facebook,
+.twitter,
+.youtube,
+.linkedin {
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background-position: 0 60px;
+}
+
+.linkedin:hover {
+  background-position: 642px 63px;
+}
+
+.youtube:hover {
+  background-position: 325px 63px;
+}
+
+.twitter:hover {
+  background-position: -66px 63px;
+}

@@ -1,0 +1,19 @@
+body {
+    width: 30%;
+}
+
+div {
+    background: #6495ED;
+    padding: 20px 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
