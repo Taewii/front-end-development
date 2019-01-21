@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+}
+
+header {
+  background: url('images/Layer-759_02.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+header nav {
+  background: #BA925E;
+  width: 70%;
+  margin: -1px auto;
+  padding: 10px 0;
+  position: relative;
+  top: 20px;
+  opacity: 0.9;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 55px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a {
+  font-size: 1.3rem;
+}
+
+header h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-top: 110px;
+  margin-bottom: 40px;
+}
+
+header p {
+  font-size: 1.4rem;
+  margin-top: 120px;
+  width: 16%;
+  margin: 0 auto;
+}
+
+header button {
+  background: #080820;
+  border: none;
+  padding: 17px 20px;
+  margin-top: 30px;
+  margin-bottom: 300px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  outline: none;
+}
+
+header button i {
+  color: #BA925E;
+}
+
+header button:hover {
+  background: #BA925E;
+  color: #BA925E;
+}
+
+
+.industries h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.content {
+  margin-left: 150px;
+  height: 40%;
+}
+
+.content article {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  margin: 40px 90px;
+}
+
+.content article h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.content article p {
+  font-size: 1.1rem;
+}
+
+.content article i {
+  width: 35px;
+  text-align: center;
+  font-size: 2.5rem;
+  position: relative;
+  right: 64px;
+  top: 32px;
+  color: white;
+  background: #080820;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.mid-banner {
+  text-align: center;
+  padding: 30px 0;
+  background: url('images/steel-bg.jpg')
+
+  /* todo opactity */
+}
+
