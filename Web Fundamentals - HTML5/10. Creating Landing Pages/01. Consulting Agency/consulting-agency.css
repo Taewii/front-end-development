@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@import "https://fonts.googleapis.com/css?family=Montserrat:600";
 
 * {
   margin: 0;
@@ -8,10 +8,10 @@
 }
 
 header {
-  background: url('images/Layer-759_02.jpg');
+  background: url(images/Layer-759_02.jpg);
   background-size: cover;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 header nav {
@@ -21,7 +21,7 @@ header nav {
   padding: 10px 0;
   position: relative;
   top: 20px;
-  opacity: 0.9;
+  opacity: .9;
 }
 
 header nav ul {
@@ -35,7 +35,7 @@ header nav ul li {
 }
 
 header a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -52,7 +52,6 @@ header h1 {
 
 header p {
   font-size: 1.4rem;
-  margin-top: 120px;
   width: 16%;
   margin: 0 auto;
 }
@@ -76,8 +75,6 @@ header button:hover {
   background: #BA925E;
   color: #BA925E;
 }
-
-/* industries */
 
 .industries h2 {
   font-size: 3.5rem;
@@ -113,13 +110,11 @@ header button:hover {
   position: relative;
   right: 64px;
   top: 32px;
-  color: white;
+  color: #fff;
   background: #080820;
   padding: 10px;
   border-radius: 50%;
 }
-
-/* mid banner */
 
 .mid-banner {
   text-align: center;
@@ -134,8 +129,8 @@ header button:hover {
 .mid-banner::after {
   content: '';
   background-size: cover;
-  opacity: 0.3;
-  background: url('images/steel-bg.jpg') center center;
+  opacity: .3;
+  background: url(images/steel-bg.jpg) center center;
   top: 0;
   left: 0;
   bottom: 0;
@@ -154,21 +149,18 @@ header button:hover {
   color: #BA925E;
 }
 
-/* traders */
-
 .traders {
   margin: 0;
   padding-top: 35px;
   padding-bottom: 46px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('images/background-choose-us.jpg') no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background-choose-us.jpg) no-repeat center;
   background-size: cover;
 }
 
 .traders h2 {
   text-align: center;
   font-size: 40px;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -206,5 +198,160 @@ header button:hover {
   margin: 0 0 17px 17px;
   font-size: 13px;
   line-height: 18px;
-  color: #ffffff;
+  color: #fff;
+}
+
+.founder {
+  background: url(/images/consulting-woman.jpg);
+  background-size: cover;
+  padding: 3% 2% 1% 62%;
+}
+
+.info {
+  background: rgba(255, 255, 255, 0.7);
+  height: 45vh;
+  padding: 10% 8% 0;
+}
+
+.info>p {
+  font-size: 1.4rem;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.info>p:before {
+  content: open-quote;
+  font-size: 2.5rem;
+  color: #BA925E;
+}
+
+.info>p:after {
+  content: close-quote;
+  font-size: 2.5rem;
+  color: #BA925E;
+}
+
+.badge {
+  background: #080820;
+  height: 65%;
+}
+
+.badge h3 {
+  color: #fff;
+  font-size: 2.3rem;
+  margin: 15px;
+}
+
+.badge p {
+  color: #789;
+  text-align: right;
+  font-size: 1.3rem;
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+
+.companies ul {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.companies ul li {
+  display: inline-block;
+  vertical-align: top;
+  height: 90px;
+}
+
+.companies ul li img {
+  height: 60px;
+}
+
+footer {
+  background: #080820;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  padding: 0 10%;
+}
+
+footer section {
+  flex-grow: 1;
+  width: 30%;
+}
+
+footer a {
+  color: #BA925E;
+  text-decoration: none;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.instagram {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.instagram h5 {
+  display: inline-block;
+}
+
+.feed {
+  margin: 0;
+  position: relative;
+  top: 50px;
+  right: 170px;
+  width: 60%;
+}
+
+.instagram img {
+  flex-grow: 1;
+  height: 90px;
+  width: 90px;
+}
+
+.extra-links ul {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.extra-links li {
+  margin-top: 10px;
+}
+
+.extra-links a {
+  text-decoration: none;
+}
+
+.consulting p {
+  margin: 10px 0 0 20px;
+  width: 35%;
+}
+
+.social {
+  position: relative;
+  bottom: 15px;
+}
+
+.social a {
+  margin: 0 10px;
+}
+
+.social i {
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: #080820;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 4px;
 }
