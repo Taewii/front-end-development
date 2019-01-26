@@ -1,0 +1,83 @@
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+
+body {
+  margin: 100px;
+  color: #8baec2;
+  font-family: Tahoma, Helvetica, sans-serif
+}
+
+nav {
+  background: #384452
+}
+
+nav ul {
+  padding: 0
+}
+
+nav ul li {
+  display: inline-block;
+  height: 90px;
+  padding: 0 62px
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #8baec2;
+  position: relative;
+  top: 36%;
+  font-size: 1.4rem
+}
+
+nav ul li:hover {
+  background: #3bbc96;
+  cursor: pointer
+}
+
+nav ul li:hover a {
+  color: #fff
+}
+
+form {
+  background: #eee;
+  color: #384452;
+  font-size: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 183px;
+  grid-row-gap: 45px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -16px;
+  padding: 30px 40px
+}
+
+form div {
+  flex-grow: 1;
+  height: 100px
+}
+
+form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 20px
+}
+
+form input {
+  height: 50px;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 1rem
+}
+
+.button {
+  background: #384452;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 70%;
+  width: 110%
+}
+
+.button:hover {
+  background: #3bbc96
+}
