@@ -1,0 +1,57 @@
+@media screen and (max-width: 730px) {
+  main section {
+    width: 90%;
+  }
+
+  main aside {
+    width: 93%;
+    margin-top: 10px;
+  }
+
+  footer p {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header>h1 {
+    font-size: 3rem;
+  }
+
+  header nav>ul li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  main {
+    margin-top: 200px;
+  }
+
+  main>section>div>div {
+    float: none;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background: #BACD8B;
+  }
+
+  main section>div {
+    height: 326px;
+  }
+
+  main>section>div>article>h3 {
+    text-align: center;
+  }
+
+  main section {
+    margin-left: 22px;
+  }
+
+  main aside {
+    width: 94%;
+    margin-left: 23px;
+  }
+}
