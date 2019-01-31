@@ -1,0 +1,87 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 44px 432px;
+  font-weight: 400;
+  color: #454545;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h1:before {
+  content: '';
+  position: absolute;
+  left: 431px;
+  bottom: 855px;
+  height: 2px;
+  width: 5.9%;
+  border-bottom: 3px solid #1996A9;
+}
+
+article {
+  display: inline-block;
+  border: 1px solid #ddd;
+  width: 31.5%;
+  height: 388px;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+article:nth-child(2) {
+  margin: 0 20px;
+}
+
+article>* {
+  margin: 0;
+  padding: 0;
+}
+
+article h3 {
+  padding: 15px 0;
+  color: #fff;
+  font-size: 1.3rem;
+  background: #333;
+}
+
+article:nth-child(2)>h3 {
+  background: #1996A9;
+}
+
+article ul {
+  list-style-type: none;
+}
+
+article ul li {
+  border: 1px dotted #ddd;
+  padding: 10px 0;
+}
+
+article button {
+  border: none;
+  padding: 13px 44px;
+  background: #008CBA;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 4px;
+}
+
+article>ul>li {
+  font-size: .9rem;
+}
+
+article>ul>li:nth-child(1) {
+  font-size: 2rem;
+  background: #F6F6F6;
+}
+
+article>ul>li:nth-child(2) {
+  font-size: .7rem;
+}
