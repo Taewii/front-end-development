@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -26,7 +27,8 @@ main {
   top: 8%;
 }
 
-.picture, aside {
+.picture,
+aside {
   display: inline-block;
   width: 47%;
   vertical-align: top;
@@ -48,16 +50,19 @@ form textarea {
   margin-bottom: 20px;
 }
 
-form input, form textarea, form button {
+form input,
+form textarea,
+form button {
   margin: 5px 0;
   width: 70%;
   background: #E6E6E6;
   border: none;
-  padding: 15px 40px;
+  padding: 15px 50px;
   border-radius: 25px;
-  color: rgb(121, 121, 121);
+  color: #aaa;
   font-weight: 800;
   font-size: 0.9rem;
+  outline: none;
 }
 
 aside h1 {
@@ -78,13 +83,27 @@ form button:hover {
 }
 
 form i {
+  font-size: 0.9rem;
   position: relative;
-  right: 394px;
-  color: rgb(121, 121, 121);
-  top: 2px;
+  right: 400px;
+  color: #aaa;
 }
 
-form input:focus label {
-  background: #846ADD;
+input:focus+label i {
+  color: #846ADD;
+  right: 407px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+form textarea {
+  font-size: 1.3rem;
+}
