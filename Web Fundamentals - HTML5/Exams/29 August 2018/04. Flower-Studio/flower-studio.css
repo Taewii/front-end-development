@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:200');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #5A5A5A;
+}
+
+nav {
+  padding: 30px 250px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 17px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5A5A5A;
+}
+
+nav ul li:nth-child(1)>a {
+  color: #FA5B3C;
+}
+
+nav ul li:nth-child(4) {
+  margin-right: 35%;
+}
+
+header {
+  background: url('./img/residential-banner-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+
+header p:nth-child(2) {
+  font-size: 1.6rem;
+  width: 33%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+header p:nth-child(3) {
+  font-size: 1.6rem;
+}
+
+.how-it-works {
+  text-align: center;
+}
+
+.how-it-works h3 {
+  color: black;
+  letter-spacing: 3px;
+}
+
+.box {
+  display: inline-block;
+  width: 15%;
+  font-size: 1.2rem;
+  margin: 0 30px;
+  vertical-align: top;
+}
+
+.box h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.box p {
+  margin-bottom: 50px;
+}
+
+.number {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.one::after {
+  content: '';
+  width: 35px;
+  height: 1px;
+  background: #454545;
+  position: absolute;
+  top: 75.5%;
+  right: 71%;
+}
+
+.one::before {
+  content: '';
+  width: 35px;
+  height: 1px;
+  background: #454545;
+  position: absolute;
+  top: 75.5%;
+  right: 64.5%;
+}
+
+.two::after {
+  content: '';
+  width: 35px;
+  height: 1px;
+  background: #454545;
+  position: absolute;
+  top: 75.5%;
+  right: 52.5%;
+}
+
+.two::before {
+  content: '';
+  width: 35px;
+  height: 1px;
+  background: #454545;
+  position: absolute;
+  top: 75.5%;
+  right: 45.5%;
+}
+
+.three::after {
+  content: '';
+  width: 35px;
+  height: 1px;
+  background: #454545;
+  position: absolute;
+  top: 75.5%;
+  right: 34%;
+}
+
+.three::before {
+  content: '';
+  width: 35px;
+  height: 1px;
+  background: #454545;
+  position: absolute;
+  top: 75.5%;
+  right: 27%;
+}
+
+.gallery {
+  background: #EDEDED;
+  padding: 50px 20%;
+}
+
+.gallery img {
+  margin: 0 2px;
+}
+
+footer {
+  background: black;
+  font-size: 0.8rem;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+footer ul {
+  display: inline-block;
+  list-style-type: none;
+  width: 20%;
+  margin: 0 20px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.as-seen-on,
+.links,
+.subscription {
+  vertical-align: top;
+}
+
+.links {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  border-bottom: 1px solid #5A5A5A;
+  margin-bottom: 60px;
+  margin-left: 300px;
+}
+
+.links ul:nth-child(2) {
+  margin: 0 10px;
+}
+
+.as-seen-on {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+}
+
+.as-seen-on div {
+  color: white;
+  font-size: 0.7rem;
+  margin: 35px 15px;
+}
+
+.as-seen-on img {
+  height: 60px;
+  position: relative;
+  right: 40px;
+}
+
+.subscription {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.subscription p {
+  width: 70%;
+  text-align: center;
+}
+
+.subscription input {
+  display: block;
+  margin-top: 15px;
+  width: 55%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.subscription button {
+  background: #FA5B3C;
+  color: white;
+  border: none;
+  padding: 10px 5px;
+}
+
+footer>p {
+  text-align: center;
+}
